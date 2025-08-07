@@ -163,11 +163,8 @@ npm run dev
 
 ## 📌 Future Improvements
 - Dark Mode toggle
-
 - Password reset via email
-
 - Admin: View/edit individual memories
-
 - Loading spinners and toast notifications
 
 ### 🙋‍♂️ Author
