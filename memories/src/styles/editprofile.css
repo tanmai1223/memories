@@ -1,0 +1,129 @@
+/* Container for the entire profile editing section */
+.profile-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.profile-header h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  margin-top: 18px;
+}
+
+/* Input fields */
+.profile-form input {
+  margin-bottom: 16px;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.profile-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit button */
+.profile-form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.profile-form button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.profile-form button:disabled {
+  background-color: #9bbdf4;
+  cursor: not-allowed;
+}
+
+/* Image upload styles */
+.imageUploadp  {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.imagePreviewp {
+  width: 120px;
+  height: 120px;
+  background-color: #f3f4f6;
+  border: 2px dashed #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border 0.3s;
+}
+
+.imagePreviewp:hover {
+  border-color: #007bff;
+}
+
+.uploadedImagep {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hide the actual input file element */
+.hiddenInputp {
+  display: none;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 25px;
+}
+
+.back-arrow {
+  cursor: pointer;
+  color: #4b5563; /* Tailwind's gray-600 */
+  transition: color 0.2s ease;
+  font-size: 24px;
+}
+
+.back-arrow:hover {
+  color: #1f2937; /* Tailwind's gray-800 */
+}
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 20px;
+  }
+
+  .imagePreviewp {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile-form input, .profile-form button {
+    font-size: 14px;
+  }
+}

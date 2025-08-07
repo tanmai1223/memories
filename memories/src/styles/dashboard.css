@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content below header */
+.dashboard-main {
+  display: flex;
+  flex: 1;
+  padding: 16px;
+  gap: 16px;
+  background-color: #f9fafb;
+}
+
+/* Left (60%) and Right (40%) sections */
+.left-section {
+  flex: 3.5;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+}
+
+.right-section {
+  flex: 1.5;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+}
+
+/* Optional: Responsive stacking for small screens */
+@media (max-width: 768px) {
+  .dashboard-main {
+    flex-direction: column;
+  }
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+}

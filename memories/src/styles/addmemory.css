@@ -1,0 +1,40 @@
+.right-section h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: #111827;
+}
+
+.add-memory-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.add-memory-form label {
+  font-weight: 500;
+  color: #374151;
+}
+
+.add-memory-form input[type="text"],
+.add-memory-form textarea,
+.add-memory-form input[type="file"] {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+}
+
+.add-memory-form button {
+  background-color:  #a1a2a3;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.add-memory-form button:hover {
+  background-color: #9ea0a7;
+}

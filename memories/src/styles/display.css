@@ -1,0 +1,148 @@
+.left-section h2 {
+  margin-bottom: 24px;
+  font-size: 32px;
+  color: #111827;
+  text-align: center;
+}
+
+.memory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.memory-card {
+  background-color: white;
+  padding: 0.4rem ;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  height: 300px; /* or whatever fits your design */
+  overflow: hidden;
+  
+}
+
+.memory-card h3 {
+  margin-bottom: 8px;
+  font-size: 22px;
+  color: #111827;
+  text-align: center;
+}
+.image-box {
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.memory-card p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%; /* Optional: control width */
+}
+
+
+.memory-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+.delete-all-btn {
+  background-color: #e74c3c; /* red color to indicate danger */
+  color: white;
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: fit-content;
+  max-width: 100%;
+}
+
+/* Hover state */
+.delete-all-btn:hover {
+  background-color: #c0392b;
+  transform: scale(1.03);
+}
+
+/* Active state */
+.delete-all-btn:active {
+  transform: scale(0.98);
+}
+
+/* Responsive adjustments */
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  background-color: white;
+  color: #374151;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pagination button:hover {
+  background-color: #f3f4f6;
+}
+
+.pagination button.active {
+  background-color:  #a1a2a3;
+  color: white;
+  border-color:  #a1a2a3;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.loading {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
+  color: #555;
+}
+
+.delete-mem-btn {
+  background-color: #e74c3c; /* red color to indicate danger */
+  color: white;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-left: 25rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-mem-btn:hover {
+  background-color: #c0392b;
+}
