@@ -113,9 +113,8 @@ A full-stack MERN (MongoDB, Express, React, Node.js) web application where users
 ---
 
 ## 📸 Screenshots
-<img width="1900" height="885" alt="image" src="https://github.com/user-attachments/assets/06d0e61c-60f7-461b-b52d-e42ffb294484" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53e45862-99fb-4157-90c2-4c7898cf918e" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7a256a95-cd25-4ea4-8708-2bdc6462020f" />
+<img width="1900" height="885" alt="image" src="https://github.com/user-attachments/assets/06d0e61c-60f7-461b-b52d-e42ffb294484" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/382a5b17-2dbf-4849-b092-075e81b09708" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/76dc93cf-f7c1-4d66-996a-3e2e1ee3c08f" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d6ae2261-5ea5-4f5e-8870-0e8dd2e937d0" />
